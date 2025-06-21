@@ -38,13 +38,13 @@ In academic institutions, each student submits a signature sample as identity pr
 
 ## 📊 Results
 
-- **Histograms of verification scores** clearly show separation between real and fake signatures.
-- The system learns realistic patterns in handwriting and performs well even on unseen forged examples.
-
-![Histogram of scores](./assets/verification_histogram.png)
-*(Higher score = more confident it is real)*
-
-- The generator produces synthetic signatures that closely resemble the originals, useful for augmentation or signature modeling.
+- The entire project was implemented in a **Google Colab notebook** to ensure smooth training using GPU and easy visualization of results.
+- The notebook includes:
+  - ✅ Sample signature verification outputs with discriminator scores
+  - 🧠 Generated synthetic signatures using the trained DCGAN
+  - 📈 Histogram comparing the discriminator's confidence on real vs forged signatures
+- The discriminator shows a clear ability to differentiate between genuine and fake signatures.
+- Generator outputs closely resemble human signatures and can be used for further analysis or synthetic data generation.
 
 ---
 
@@ -70,7 +70,4 @@ In academic institutions, each student submits a signature sample as identity pr
 
 ---
 
-## 🎓 Author
 
-Saketh Vaddiparthi — BTech Aerospace Engineering, IIT Madras  
-Currently exploring AI for document and ID verification systems 🚀
