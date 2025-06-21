@@ -11,7 +11,18 @@ To keep the GitHub repository lightweight, the full dataset is hosted on Google 
 👉 [Download Full Signature Dataset (Google Drive)](https://drive.google.com/file/d/1CAjtavJerVnrObpj10GHT4P-muqILVL7/view?usp=sharing)
 
 If you're running the project on Google Colab, you can mount this Drive folder directly to load the dataset into your notebook.
+## 🌐 Web Interface
 
+This project comes with a FastAPI-powered web interface for easy signature verification.
+
+- 🖼 Upload a signature image and get an instant "Real" or "Fake" prediction.
+- 🚀 Run the API locally using:
+
+```bash
+uvicorn main_1:app --reload
+Then open your browser and go to:
+
+🔗 http://127.0.0.1:8000/ – to access the web UI.
 
 
 This project uses **Deep Convolutional Generative Adversarial Networks (DCGANs)** to perform two key tasks in the context of signature-based authentication:
