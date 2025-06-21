@@ -1,4 +1,18 @@
 # ✍️ Signature Verification using DCGAN
+## 📁 Dataset
+
+The dataset used in this project contains:
+
+- `full_org/` – 1000+ original handwritten signature images  
+- `full_forg/` – 1000+ forged signature images
+
+To keep the GitHub repository lightweight, the full dataset is hosted on Google Drive:
+
+👉 [Download Full Signature Dataset (Google Drive)](https://drive.google.com/file/d/1CAjtavJerVnrObpj10GHT4P-muqILVL7/view?usp=sharing)
+
+If you're running the project on Google Colab, you can mount this Drive folder directly to load the dataset into your notebook.
+
+
 
 This project uses **Deep Convolutional Generative Adversarial Networks (DCGANs)** to perform two key tasks in the context of signature-based authentication:
 
