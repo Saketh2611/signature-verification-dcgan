@@ -18,11 +18,12 @@ This project comes with a FastAPI-powered web interface for easy signature verif
 - 🖼 Upload a signature image and get an instant "Real" or "Fake" prediction.
 - 🚀 Run the API locally using:
 
-```bash
-uvicorn main_1:app --reload
+bash
+`uvicorn main_1:app --reload`
 Then open your browser and go to:
 
-🔗 http://127.0.0.1:8000/ – to access the web UI.
+🔗 `http://127.0.0.1:8000/` – to access the web UI
+
 
 
 This project uses **Deep Convolutional Generative Adversarial Networks (DCGANs)** to perform two key tasks in the context of signature-based authentication:
