@@ -21,7 +21,7 @@ This project uses **Deep Convolutional Generative Adversarial Networks (DCGANs)*
 
 ---
 
-## 📘 Project Summary
+## 📘 Problem Statement
 
 In academic institutions, each student submits a signature sample as identity proof. During exams, students sign attendance sheets. This project proposes an automated system that uses a trained model to verify whether the test-time signature matches the student's original sample — helping prevent impersonation or signature fraud.
 
