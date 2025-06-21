@@ -13,16 +13,13 @@ To keep the GitHub repository lightweight, the full dataset is hosted on Google 
 If you're running the project on Google Colab, you can mount this Drive folder directly to load the dataset into your notebook.
 ## 🌐 Web Interface
 
-This project comes with a FastAPI-powered web interface for easy signature verification.
+This project includes a web UI to upload and verify signatures using the trained model.
 
-- 🖼 Upload a signature image and get an instant "Real" or "Fake" prediction.
-- 🚀 Run the API locally using:
+🚀 Backend API: Built using FastAPI (see [`main_1.py`](./main_1.py))  
+🎨 Frontend UI: Deployed static demo here 👉 [Signature UI Demo](https://Saketh2611.github.io/signature-verification-ui/)
 
-bash
-`uvicorn main_1:app --reload`
-Then open your browser and go to:
+> Note: The demo is only the HTML UI. For full functionality, clone the repo and run the FastAPI server locally.
 
-🔗 `http://127.0.0.1:8000/` – to access the web UI
 
 
 
