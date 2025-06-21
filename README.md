@@ -44,8 +44,8 @@ In academic institutions, each student submits a signature sample as identity pr
    - Given a test signature, it outputs a confidence score between `0` (fake) and `1` (real).
    - Example:
      ```
-     Real Signature: ✅ Real (Score: 0.7772)
-     Forged Signature: ❌ Fake (Score: 0.0021)
+     Real Signature: ✅ Real (Score: 0.9541)
+     Forged Signature: ❌ Fake (Score: 0.0115)
      ```
 
 ---
