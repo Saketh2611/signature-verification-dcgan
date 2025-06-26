@@ -18,7 +18,9 @@ This project includes a web UI to upload and verify signatures using the trained
 🚀 Backend API: Built using FastAPI (see [`main_1.py`](./main_1.py))  
 🎨 Frontend UI: Deployed static demo here 👉 [Signature UI Demo](https://Saketh2611.github.io/signature-verification-ui/)
 
+
 > Note: The demo is only the HTML UI. For full functionality, clone the repo and run the FastAPI server locally.
+> You can watch the video bandicam 2025-06-21 15-14-26-783.mp4 to look how its working
 
 
 
