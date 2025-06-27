@@ -20,7 +20,8 @@ This project includes a web UI to upload and verify signatures using the trained
 
 
 > Note: The demo is only the HTML UI. For full functionality, clone the repo and run the FastAPI server locally.
-> You can watch the video bandicam 2025-06-21 15-14-26-783.mp4 to look how its working
+ In command prompt type uvicorn main_1:app --reload
+ You can watch the video bandicam 2025-06-21 15-14-26-783.mp4 to look how its working
 
 
 
